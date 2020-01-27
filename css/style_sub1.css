@@ -1,0 +1,35 @@
+body {
+	/*background: repeat-y center top #372010;*/
+}
+#header {
+	/*background:url(../images/bg_top2.jpg) no-repeat center top;*/
+}
+#content {
+	/*background:url(../images/bg_bottom.jpg) no-repeat center bottom;*/
+    margin-top: 0px;
+}
+#content .wrapper {
+    width: 1000px;
+    padding-right: 10px;
+    min-height: 200px;
+}
+#left-sidebar {
+	margin-top:0px;
+    float: left;
+} 
+#right-content {
+		background:url(../images/bg_contentst.png), url(../images/bg_contentsb.png), url(../images/bg_contentsc.jpg);
+	background-position: top, bottom, center;
+	background-repeat: no-repeat, no-repeat, repeat-y;
+    
+}
+#right-content {
+    float: right;
+    width: 780px;
+    min-height: 500px;
+    height: auto;
+    /*margin-left: 30px;*/
+    line-height: 20px;
+    margin-top:0px;
+    position: relative;
+}
